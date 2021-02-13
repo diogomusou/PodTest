@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import PodTest
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(Service.doSomething())
         // Do any additional setup after loading the view.
     }
 
