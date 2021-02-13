@@ -16,6 +16,8 @@
 		D84BAF8925D844A600816E02 /* PodTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodTest.h; sourceTree = "<group>"; };
 		D84BAF8A25D844A600816E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D84BAF9225D8451000816E02 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		D84BAF9525D8467D00816E02 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		D84BAF9625D8467D00816E02 /* PodTest.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = PodTest.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,8 @@
 		D84BAF7C25D844A600816E02 = {
 			isa = PBXGroup;
 			children = (
+				D84BAF9525D8467D00816E02 /* Podfile */,
+				D84BAF9625D8467D00816E02 /* PodTest.podspec */,
 				D84BAF8825D844A600816E02 /* PodTest */,
 				D84BAF8725D844A600816E02 /* Products */,
 			);
