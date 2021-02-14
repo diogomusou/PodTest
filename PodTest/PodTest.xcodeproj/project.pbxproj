@@ -32,6 +32,12 @@
 		D84BB02D25D8B82600816E02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D84BB03025D8B83200816E02 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D84BB03125D8B83300816E02 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D84BB06025D8F76D00816E02 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		D84BB06125D8F76D00816E02 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D84BB06325D8F76D00816E02 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		D84BB06525D8F76D00816E02 /* PodTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodTestTests.swift; sourceTree = "<group>"; };
+		D84BB06625D8F76D00816E02 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		D84BB06925D8F76D00816E02 /* PodTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				D84BAFB825D84F5F00816E02 /* Gemfile */,
 				D84BB01425D8B27B00816E02 /* vendor */,
 				D84BAF9625D8467D00816E02 /* PodTest.podspec */,
+				D84BB06025D8F76D00816E02 /* Package.swift */,
+				D84BB06125D8F76D00816E02 /* README.md */,
+				D84BB06725D8F76D00816E02 /* Sources */,
+				D84BB06225D8F76D00816E02 /* Tests */,
 				D84BB00125D8AE4200816E02 /* swiftgen.yml */,
 				D84BAFC225D8A4BA00816E02 /* Resources */,
 				D84BAF8825D844A600816E02 /* PodTest */,
@@ -84,8 +94,6 @@
 			children = (
 				D84BAF8925D844A600816E02 /* PodTest.h */,
 				D84BAF8A25D844A600816E02 /* Info.plist */,
-				D84BAF9225D8451000816E02 /* Service.swift */,
-				D84BB00225D8AEC700816E02 /* SwiftGen */,
 			);
 			path = PodTest;
 			sourceTree = "<group>";
@@ -128,6 +136,42 @@
 				D84BB02E25D8B82600816E02 /* Localizable.strings */,
 			);
 			path = Locales;
+			sourceTree = "<group>";
+		};
+		D84BB06225D8F76D00816E02 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D84BB06325D8F76D00816E02 /* LinuxMain.swift */,
+				D84BB06425D8F76D00816E02 /* PodTestTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D84BB06425D8F76D00816E02 /* PodTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D84BB06525D8F76D00816E02 /* PodTestTests.swift */,
+				D84BB06625D8F76D00816E02 /* XCTestManifests.swift */,
+			);
+			path = PodTestTests;
+			sourceTree = "<group>";
+		};
+		D84BB06725D8F76D00816E02 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D84BB06825D8F76D00816E02 /* PodTest */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D84BB06825D8F76D00816E02 /* PodTest */ = {
+			isa = PBXGroup;
+			children = (
+				D84BB06925D8F76D00816E02 /* PodTest.swift */,
+				D84BAF9225D8451000816E02 /* Service.swift */,
+				D84BB00225D8AEC700816E02 /* SwiftGen */,
+			);
+			path = PodTest;
 			sourceTree = "<group>";
 		};
 		F02D2F9F091DBBCFEC9E109C /* Frameworks */ = {
