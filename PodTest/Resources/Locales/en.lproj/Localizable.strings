@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  PodTest
+
+  Created by Diogo Musou on 2021-02-13.
+  
+*/
+
+/********** Passcode.Title **********/
+
+"Passcode.Title.enterPasscode" = "O Enter passcode";
+
+"Passcode.Title.enterNewPasscode" = "Enter new passcode";
+
+"Passcode.Title.confirmPasscode" = "Confirm passcode";

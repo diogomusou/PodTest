@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "PodTest"
   s.version      = "1.0.0"
-  s.summary      = "A short description of PodTest."
+  s.summary      = "PodTest is just a test project to learn cocoapods"
   s.swift_version = '5.0'
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "Bla bla bla bla"
+  s.description  = "PodTest is just a test project to learn cocoapods localization in order to apply on other project."
 
   s.homepage     = "https://github.com/diogomusou/PodTest"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -107,7 +107,8 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  # s.resources = "Resources/*"
+  s.ios.resource_bundle = { 'PodTest' => 'Resources/**/*' }
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
