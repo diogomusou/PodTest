@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PodTest"
-  s.version      = "1.0.0"
+  s.version      = "1.1.1"
   s.summary      = "PodTest is just a test project to learn cocoapods"
   s.swift_version = '5.0'
 
