@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PodTest",
+        "repositoryURL": "git@github.com:diogomusou/PodTest.git",
+        "state": {
+          "branch": "SPM",
+          "revision": "21b92d5cca1f4f722fa7e74b0598144dc009a25c",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		D84BB09925DA010600816E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84BB09725DA010600816E02 /* Main.storyboard */; };
 		D84BB09B25DA010700816E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D84BB09A25DA010700816E02 /* Assets.xcassets */; };
 		D84BB09E25DA010700816E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84BB09C25DA010700816E02 /* LaunchScreen.storyboard */; };
+		D84BB0A825DA231000816E02 /* PodTest in Frameworks */ = {isa = PBXBuildFile; productRef = D84BB0A725DA231000816E02 /* PodTest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D84BB0A825DA231000816E02 /* PodTest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = PodTestSPMExample;
+			packageProductDependencies = (
+				D84BB0A725DA231000816E02 /* PodTest */,
+			);
 			productName = PodTestSPMExample;
 			productReference = D84BB08E25DA010600816E02 /* PodTestSPMExample.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +115,9 @@
 				Base,
 			);
 			mainGroup = D84BB08525DA010600816E02;
+			packageReferences = (
+				D84BB0A625DA231000816E02 /* XCRemoteSwiftPackageReference "PodTest" */,
+			);
 			productRefGroup = D84BB08F25DA010600816E02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -341,6 +349,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D84BB0A625DA231000816E02 /* XCRemoteSwiftPackageReference "PodTest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:diogomusou/PodTest.git";
+			requirement = {
+				branch = SPM;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D84BB0A725DA231000816E02 /* PodTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D84BB0A625DA231000816E02 /* XCRemoteSwiftPackageReference "PodTest" */;
+			productName = PodTest;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D84BB08625DA010600816E02 /* Project object */;
 }
