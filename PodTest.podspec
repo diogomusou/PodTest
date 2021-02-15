@@ -108,7 +108,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*"
-  s.ios.resource_bundle = { 'PodTest' => 'PodTest/Resources/**/*.lproj' }
+  s.ios.resource_bundle = { 'PodTest' => 'PodTest/Resources/**/*' }
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
