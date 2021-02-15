@@ -24,7 +24,7 @@
 		D84BAF8A25D844A600816E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D84BAF9225D8451000816E02 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		D84BAF9525D8467D00816E02 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D84BAF9625D8467D00816E02 /* PodTest.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PodTest.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D84BAF9625D8467D00816E02 /* PodTest.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = PodTest.podspec; path = ../PodTest.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D84BAFB825D84F5F00816E02 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 		D84BB00125D8AE4200816E02 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		D84BB00825D8B0AA00816E02 /* AdminLocalizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminLocalizations.swift; sourceTree = "<group>"; };
@@ -32,7 +32,7 @@
 		D84BB02D25D8B82600816E02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D84BB03025D8B83200816E02 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D84BB03125D8B83300816E02 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		D84BB06025D8F76D00816E02 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		D84BB06025D8F76D00816E02 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		D84BB06125D8F76D00816E02 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D84BB06325D8F76D00816E02 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		D84BB06525D8F76D00816E02 /* PodTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodTestTests.swift; sourceTree = "<group>"; };

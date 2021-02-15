@@ -22,7 +22,8 @@ let package = Package(
         .target(
             name: "PodTest",
             dependencies: [],
-            path: "PodTest/Sources/PodTest"),
+            path: "PodTest/Sources/PodTest",
+            resources: [.copy("PodTest/Resources")]),
         .testTarget(
             name: "PodTestTests",
             dependencies: ["PodTest"]),
