@@ -1,0 +1,7 @@
+strings:
+  - inputs: Sources/PodTest/Resources/Locales/en.lproj/Localizable.strings
+    outputs:
+      templatePath: vendor/swiftgen/structured-swift5-pod.stencil
+      output: Sources/PodTest/SwiftGen/AdminLocalizations.swift
+      params:
+        enumName: L10nAdmin

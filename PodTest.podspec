@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -15,20 +15,20 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PodTest"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of PodTest."
+  s.name         = "PodTest"
+  s.version      = "1.2.0"
+  s.summary      = "PodTest is just a test project to learn cocoapods"
+  s.swift_version = '5.0'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  s.description  = "PodTest is just a test project to learn cocoapods localization in order to apply on other project."
 
-  spec.homepage     = "http://EXAMPLE/PodTest"
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.homepage     = "https://github.com/diogomusou/PodTest"
+  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -38,8 +38,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+    s.license      = "MIT"
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -52,10 +52,10 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Diogo Musou" => "diogo.musou@clearwaterclinical.com" }
-  # Or just: spec.author    = "Diogo Musou"
-  # spec.authors            = { "Diogo Musou" => "diogo.musou@clearwaterclinical.com" }
-  # spec.social_media_url   = "https://twitter.com/Diogo Musou"
+    s.author             = { "Diogo Musou" => "diogo.musou@clearwaterclinical.com" }
+  # Or just: s.author    = "Diogo Musou"
+  # s.authors            = { "Diogo Musou" => "diogo.musou@clearwaterclinical.com" }
+  # s.social_media_url   = "https://twitter.com/Diogo Musou"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -63,14 +63,14 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  spec.platform     = :ios, "11.0"
+  # s.platform     = :ios
+    s.platform     = :ios, "11.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
+  # s.ios.deployment_target = "5.0"
+  # s.osx.deployment_target = "10.7"
+  # s.watchos.deployment_target = "2.0"
+  # s.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "#{s.homepage}.git", :tag => "#{spec.version}" }
+    s.source       = { :git => "#{s.homepage}.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,11 +90,12 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "PodTest"
-  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Exclude"
+    s.source_files  = "Sources/PodTest/**/*.{h,m,swift}"
+  # s.source_files  = "Classes", "Classes/**/*.{h,m}"
+    s.exclude_files = "Exclude"
+    s.exclude_files = "**/*.plist"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -105,10 +106,15 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  # s.resource  = "icon.png"
+  # s.resources = "Resources/*"
+<<<<<<< HEAD:PodTest/PodTest.podspec
+  s.ios.resource_bundle = { 'PodTest' => 'PodTest/Resources/**/*' }
+=======
+  s.ios.resource_bundle = { 'PodTest' => 'Sources/PodTest/Resources/**/*' }
+>>>>>>> SPM:PodTest.podspec
 
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
+  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -117,11 +123,11 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  # s.framework  = "SomeFramework"
+  # s.frameworks = "SomeFramework", "AnotherFramework"
 
-  # spec.library   = "iconv"
-  # spec.libraries = "iconv", "xml2"
+  # s.library   = "iconv"
+  # s.libraries = "iconv", "xml2"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -130,9 +136,9 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # spec.requires_arc = true
+  # s.requires_arc = true
 
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  # s.dependency "JSONKit", "~> 1.4"
 
 end
