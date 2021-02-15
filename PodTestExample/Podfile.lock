@@ -11,15 +11,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   PodTest:
-    :commit: 719c7db02e70631683b5bb85a43cde1cbfc03ab9
+    :commit: 670a393b82263027e1539a58c2e1c859aba6db69
     :git: "git@github.com:diogomusou/PodTest.git"
 
 SPEC CHECKSUMS:
-<<<<<<< HEAD
-  PodTest: b958e88134df9cc635c54ca40ab2bf60cbdb13e8
-=======
   PodTest: 82a9c0129a6f7c86e3b2e866051bfc8e3ab267fc
->>>>>>> SPM
 
 PODFILE CHECKSUM: d3a95189090d5beeefca8076e74baec545dca4f7
 
