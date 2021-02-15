@@ -11,6 +11,6 @@ public class Service {
     private init() {}
 
     public static func doSomething() -> String {
-        L10nAdmin.Passcode.Title.enterPasscode
+        L10nAdmin.Passcode.Title.a
     }
 }

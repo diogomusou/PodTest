@@ -1,16 +1,22 @@
 PODS:
-  - PodTest (1.1.1)
+  - PodTest (1.2.0)
 
 DEPENDENCIES:
-  - PodTest (from `../`)
+  - "PodTest (from `git@github.com:diogomusou/PodTest.git`, branch `SPM`)"
 
 EXTERNAL SOURCES:
   PodTest:
-    :path: "../"
+    :branch: SPM
+    :git: "git@github.com:diogomusou/PodTest.git"
+
+CHECKOUT OPTIONS:
+  PodTest:
+    :commit: 719c7db02e70631683b5bb85a43cde1cbfc03ab9
+    :git: "git@github.com:diogomusou/PodTest.git"
 
 SPEC CHECKSUMS:
-  PodTest: 531de5a8605ab32519899ab8fa51a1760edeca0f
+  PodTest: 82a9c0129a6f7c86e3b2e866051bfc8e3ab267fc
 
-PODFILE CHECKSUM: c3aa222432e3829047dd9dde343d187606fda674
+PODFILE CHECKSUM: d3a95189090d5beeefca8076e74baec545dca4f7
 
 COCOAPODS: 1.10.1

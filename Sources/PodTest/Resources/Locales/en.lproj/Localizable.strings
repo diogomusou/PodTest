@@ -13,3 +13,5 @@
 "Passcode.Title.enterNewPasscode" = "Enter new passcode";
 
 "Passcode.Title.confirmPasscode" = "Confirm passcode";
+
+"Passcode.Title.a" = "New String";

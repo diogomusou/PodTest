@@ -13,6 +13,8 @@ internal enum L10nAdmin {
 
   internal enum Passcode {
     internal enum Title {
+      /// New String
+      internal static let a = L10nAdmin.tr("Localizable", "Passcode.Title.a")
       /// Confirm passcode
       internal static let confirmPasscode = L10nAdmin.tr("Localizable", "Passcode.Title.confirmPasscode")
       /// Enter new passcode
