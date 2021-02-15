@@ -1,10 +1,10 @@
-source 'https://github.com/diogomusou/PodTest.git'
+source 'git@github.com:diogomusou/PodSpecs.git'
 
 inhibit_all_warnings!
 use_frameworks!
 platform :ios, '13.0'
 
 target 'PodTestExample' do
-  #pod 'PodTest', :path => "../PodTest/"
-  pod 'PodTest', { :git => 'https://github.com/diogomusou/PodTest.git', :branch => 'SPM' }
+  pod 'PodTest', :path => "../"
+  #pod 'PodTest', { :git => 'git@github.com:diogomusou/PodTest.git', :branch => 'SPM' }
 end
